@@ -13,6 +13,7 @@
 		6C998270209372950040E8EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C99826F209372950040E8EC /* Assets.xcassets */; };
 		6C998273209372950040E8EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C998271209372950040E8EC /* LaunchScreen.storyboard */; };
 		6CC3A56B20DF05A8004D1904 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CC3A56A20DF05A8004D1904 /* GoogleService-Info.plist */; };
+		6CC3A56D20DF0D4F004D1904 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC3A56C20DF0D4F004D1904 /* DataService.swift */; };
 		FF714972BB7174A2CE41D483 /* Pods_v4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D7B5EC28EF6844AD6C0A5D5 /* Pods_v4.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		6C998272209372950040E8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C998274209372950040E8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CC3A56A20DF05A8004D1904 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6CC3A56C20DF0D4F004D1904 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		7869A458B3FF4705ABC00354 /* Pods-v4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-v4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-v4/Pods-v4.debug.xcconfig"; sourceTree = "<group>"; };
 		8D7B5EC28EF6844AD6C0A5D5 /* Pods_v4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_v4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E6EFF93274E49341F87A679 /* Pods-v4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-v4.release.xcconfig"; path = "Pods/Target Support Files/Pods-v4/Pods-v4.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		6CC3A56820DEE140004D1904 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				6CC3A56C20DF0D4F004D1904 /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CC3A56D20DF0D4F004D1904 /* DataService.swift in Sources */,
 				6C99826B209372950040E8EC /* ViewController.swift in Sources */,
 				6C998269209372950040E8EC /* AppDelegate.swift in Sources */,
 			);
